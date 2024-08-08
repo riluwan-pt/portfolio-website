@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Riluwan pt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top bg-transparent">
+    <div class="container h-25">
+      <a class="navbar-brand fs-5" href="#">Riluwan.pt </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav nav nav-underline ms-auto">
+          <li class="nav-item">
+            <a class="nav-link me-3" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-3" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-3" href="#Skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-3" href="#Portfolio">Portfolio</a>
+          </li>     
+          <li class="nav-item">
+            <a class="nav-link me-3" href="#contact">Contact</a>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section class="home min-vh-100 d-flex align-items-center py-1">
+    <div class="home-content text-white align-self-center mx-auto">
+      <div class="home-img text-center mb-4">
+        <img src="img\Untitled (250 x 250 px).png" alt="Profile Picture" class="img-fluid rounded-circle mb-5" style="width: 150px; height: 150px; object-fit: cover;">
+      </div>
+      <p class="fs-3 text-center">Hello, I'm</p>
+      <h1 class="fs-1 text-center">Riluwan</h1>
+      <h3 class="text-animation text-center"><span class="changing-text">Frontend Developer</span></h3>
+    
+      <div class="d-flex flex-column align-items-center mt-4">
+        <!-- Social Icons -->
+        <div class="social-icon mb-3 py-2">
+          <a href="https://www.linkedin.com/in/riluwan-pt-469085322/"><i class="fa-brands fa-linkedin fa-2x me-3"></i></a>
+          <a href="https://github.com/riluwan-pt"><i class="fa-brands fa-github fa-2x me-3"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
+        </div>
+      
+        <!-- Buttons -->
+        <div class="d-grid gap-3 d-md-block ">
+          <button type="button" 
+                  class="btn me-2 rounded-pill" 
+                  style="color: #d789dd; border-color: #d789dd; background-color: transparent;" 
+                  onmouseover="this.style.backgroundColor='#6f5495'; this.style.color='#fff';" 
+                  onmouseout="this.style.backgroundColor='transparent'; this.style.color='#d789dd';">
+            Hire Me
+          </button>
+          <button type="button" href="#contact"
+                  class="btn rounded-pill" 
+                  style="color: #d789dd; border-color: #d789dd; background-color: transparent;" 
+                  onmouseover="this.style.backgroundColor='#6f5495'; this.style.color='#fff';" 
+                  onmouseout="this.style.backgroundColor='transparent'; this.style.color='#d789dd';">
+            Contact
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="About d-flex align-items-center flex-column text-center text-white" id="About">
+    <div>
+      <h2 class="head mx-auto py-5 ">About Me</h2>
+    </div>
+    <div class="text-container justify-content-center fs-5 fw-light" style="line-height: 1.8;">
+      <p>I’m Riluwan, a recent B.Com graduate specializing in Computer Applications. With a strong passion for design and development, I enjoy creating intuitive and impactful software and web applications. My background has equipped me with both technical and creative skills, allowing me to blend functionality with aesthetics. I’m eager to continue learning and take on new challenges in the world of software and web development.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills py-5 text-white">
+    <div>
+      <h2 class="skills mx-auto text-center py-5" id="Skills">Skills</h2>
+    </div>
+    <div class="container py-5">
+      <div class="progress-container pb-3">
+        <div class="progress-bar-label"><i class="fa-brands fa-html5 pe-2 fa-2x" style="color: #e8622a;"></i>HTML</div>
+        <div class="progress" role="progressbar" aria-label="HTML skill" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar1" style="width: 90%"></div>
+        </div>
+      </div>
+    
+      <div class="progress-container pb-3">
+        <div class="progress-bar-label"><i class="fa-brands fa-css3-alt pe-2 fa-2x" style="color: #2862e9;"></i>CSS3</div>
+        <div class="progress" role="progressbar" aria-label="CSS3 skill" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar2" style="width: 85%"></div>
+        </div>
+      </div>
+    
+      <div class="progress-container pb-3">
+        <div class="progress-bar-label"><i class="fa-brands fa-js pe-2 fa-2x" style="color: #fdd808;"></i>JavaScript</div>
+        <div class="progress" role="progressbar" aria-label="JavaScript skill" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar3" style="width: 60%"></div>
+        </div>
+      </div>
+    
+      <div class="progress-container">
+        <div class="progress-bar-label"><i class="fa-brands fa-bootstrap pe-2 fa-2x" style="color: #7410df;"></i>Bootstrap</div>
+        <div class="progress" role="progressbar" aria-label="Bootstrap skill" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar4" style="width: 75%"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="Portfolio text-white" id="Portfolio">
+    <div>
+      <h2 class="skills mx-auto text-center py-5">Portfolio</h2>
+    </div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-5">
+        <div class="col">
+          <div class="col">
+            <div class="card h-100">
+              <a href="https://riluwan-pt.github.io/login-page/" target="_blank">
+                <img src="img/Screenshot (402).png" class="card-img-top" alt="Portfolio Example 1">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Portfolio</h5>
+                <p class="card-text">Responsive portfolio website</p>
+                <i class="fa-brands fa-html5 pe-2 fa-2x" style="color: #e8622a;"></i>
+                <i class="fa-brands fa-css3-alt pe-2 fa-2x" style="color: #2862e9;"></i>
+                <i class="fa-brands fa-js pe-2 fa-2x" style="color: #fdd808;"></i>
+                <i class="fa-brands fa-bootstrap pe-2 fa-2x" style="color: #7410df;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="https://riluwan-pt.github.io/login-page/" target="_blank">
+              <img src="img/Screenshot (399).png" class="card-img-top" alt="Portfolio Example 2">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Login Page</h5>
+              <p class="card-text">Attractive and responsive login page</p>
+              <i class="fa-brands fa-html5 pe-2 fa-2x" style="color: #e8622a;"></i>
+              <i class="fa-brands fa-css3-alt pe-2 fa-2x" style="color: #2862e9;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Week1-paytm.png" class="card-img-top" alt="Portfolio Example 3">
+            <div class="card-body">
+              <h5 class="card-title">Paytm Front Page</h5>
+              <p class="card-text">Paytm front page design </p>
+              <i class="fa-brands fa-html5 pe-2 fa-2x" style="color: #e8622a;"></i>
+              <i class="fa-brands fa-css3-alt pe-2 fa-2x" style="color: #2862e9;"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- contact Section -->
+  <section id="contact" >
+    <div class="container text-white">
+
+      <div class="section-title">
+        <h2 class="text-center">Contact Me</h2>
+        <p class="pt-5">Ready to turn your vision into a responsive, beautifully designed website? I'm here to help. Reach out, and let's start building something amazing together!</p>
+      </div>
+
+      <div class="row" data-aos="fade-in">
+
+        <div class="col-lg-5 d-flex align-items-center">
+          <div class="info">
+            <div class="address d-flex align-items-center mb-2">
+              <i class="fa-solid fa-location-dot me-3"></i>
+              <h6 class="mb-0">MALAPPURAM, KERALA</h6>
+            </div>
+            
+            <div class="email d-flex align-items-center mb-2">
+              <i class="fa-solid fa-envelope me-3"></i>
+              <h6 class="mb-0">riluvanrahman0@gmail.com</h6>
+            </div>
+            
+            <div class="phone d-flex align-items-center mb-2">
+              <i class="fa-solid fa-phone me-3"></i>
+              <h6 class="mb-0">+91 6238920842</h6>
+            </div>
+            
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250436.59730758014!2d75.6459965031242!3d11.256126133082217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65938563d4747%3A0x32150641ca32ecab!2sKozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1692249914250!5m2!1sen!2sin"  frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+          <form method="post" role="form" class="email-form">
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="name">Your Name</label>
+                <input type="text" name="name" class="form-control" id="name" required>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="name">Your Email</label>
+                <input type="email" class="form-control" name="email" id="email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="name">Subject</label>
+              <input type="text" class="form-control" name="subject" id="subject" required>
+            </div>
+            <div class="form-group">
+              <label for="name">Message</label>
+              <textarea class="form-control" name="message" id="message" rows="10" required></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="button" 
+              class="btn rounded-pill" 
+              style="color: #d789dd; border-color: #d789dd; background-color: transparent;" 
+              onmouseover="this.style.backgroundColor='#6f5495'; this.style.color='#fff';" 
+              onmouseout="this.style.backgroundColor='transparent'; this.style.color='#d789dd';">
+              Send message</button>
+             </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+  <footer class="bg-dark bg-transparent text-white py-3 mt-5">
+    <div class="container d-flex justify-content-center">
+      <div>
+        <a href="https://www.linkedin.com/in/riluwan-pt-469085322/" class="text-white me-3"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+        <a href="https://github.com/riluwan-pt" class="text-white me-3"><i class="fa-brands fa-github fa-lg"></i></a>
+        <a href="#" class="text-white"><i class="fa-brands fa-instagram fa-lg"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+</body>  
+</html>

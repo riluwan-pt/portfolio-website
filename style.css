@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: #080808;
+  --second-bg-color: #131313;
+  --text-color: white;
+  --main--color: #d789dd;
+}
+body {
+  width: 100%;
+  height: 110vh;
+  background: var(--bg-color);
+  background-repeat: no-repeat;
+  color: var(--text-color);
+  background: linear-gradient(
+    3deg,
+    rgb(0, 0, 0),
+    rgb(8, 0, 25),
+    rgb(74, 38, 75)
+  );
+}
+.navbar {
+  backdrop-filter: blur(10px);
+}
+.navbar-brand {
+  font-size: 200px;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: 0.3s ease;
+
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: bold;
+}
+.nav-item{
+    font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+
+}
+
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+.navbar-nav .nav-link:hover:hover,
+.navbar-nav .nav-link:hover:active {
+  color: var(--main--color);
+  border-bottom: 3px solid var(--main--color);
+}
+.home-img{
+  border-radius: 50%;
+}
+
+.home-img img{
+  position:relative;
+  top: 3rem;
+  width: 22vw;
+  border-radius: 50%;
+  box-shadow: 0 0 25px var(--main--color);
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.home-img img:hover{
+  box-shadow: 0 0 50px var(--main--color),
+             0 0 100px var(--main--color);
+              
+}
+
+
+section {
+  padding: 10rem 12% 10rem;
+}
+h1 {
+  line-height: 1;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: bold;
+}
+
+span {
+  color: rgb(111, 84, 149)
+}
+
+.text-animation span{
+position: relative;
+}
+
+.text-justify {
+    text-align: justify;
+  }
+ .fa-brands{
+  color: #d789dd;
+
+ }
+
+ .progress-bar1{
+  background-color: #f06529;
+ }
+ .progress-bar2{
+  background-color: #2965f1;
+
+ }
+
+ .progress-bar3{
+  background-color: #f0db4f;
+ }
+
+ .progress-bar4{
+  background-color: #563d7c;
+
+ }
+
+ .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px var(--main--color);
+}
+
+
